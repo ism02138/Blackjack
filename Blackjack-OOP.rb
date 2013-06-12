@@ -62,7 +62,7 @@ end
 
 class Dealer < Player
 	def decide
-		if @hand.sum.min < 17 && @hand.sum.min < 22
+		if @hand.sum.min < 17
 			return 'Y'
 		else
 			return 'N'
